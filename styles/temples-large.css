@@ -1,0 +1,28 @@
+/* Larger Screens */
+@media (min-width: 768px) {
+    header {
+      flex-direction: row;
+    }
+  
+    nav {
+      display: block;
+    }
+  
+    nav ul {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  
+    #hamburger {
+      display: none;
+    }
+  
+    .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    main {
+      max-width: 900px;
+    }
+  }
+  
