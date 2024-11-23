@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place</title>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="styles/place.css">
+  <!-- Link to JavaScript file -->
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <!-- The header of the page -->
+  <header>
+    <h1>Explore [Your Place]</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="place.html" class="active">Place</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+   
+    <section class="hero">
+      <picture>
+        <source srcset="images/pexels-fotios-photos-1534560.webp" media="(max-width: 500px)">
+        <source srcset="images/pexels-fotios-photos-1534560.webp" media="(max-width: 1000px)">
+        <img src="images/pexels-fotios-photos-1534560.webp" alt="A view of Lisbon">
+      </picture>
+    </section>
+
+    
+    <section class="weather">
+      <h2>Weather</h2>
+      <div class="weather-details">
+        <p>Temperature: <span id="temperature">20°C</span></p>
+        <p>Wind Speed: <span id="windSpeed">10 km/h</span></p>
+        <p>Wind Chill: <span id="windChill">N/A</span></p>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> Explore [Your Place]</p>
+    <p>Last Updated: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>

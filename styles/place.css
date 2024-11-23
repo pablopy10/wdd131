@@ -1,0 +1,60 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #123456; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Hero image styles */
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Weather section */
+  .weather {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray */
+    text-align: center;
+  }
+  
+  .weather-details p {
+    margin: 10px 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #123456; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
