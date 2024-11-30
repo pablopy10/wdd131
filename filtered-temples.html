@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temples</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+
+  <link rel="stylesheet" href="styles/filtered-temples-large.css" media="screen and (min-width: 768px)">
+
+  <script src="scripts/filtered-temples.js" defer></script>
+</head>
+<body>
+  
+  <header>
+    <h1>Temples</h1>
+    <button id="hamburger" aria-label="Toggle Navigation">&#9776;</button>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#" data-filter="all">Home</a></li>
+        <li><a href="#" data-filter="old">Old</a></li>
+        <li><a href="#" data-filter="new">New</a></li>
+        <li><a href="#" data-filter="large">Large</a></li>
+        <li><a href="#" data-filter="small">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Temple Gallery</h2>
+    <div id="temple-cards" class="gallery"></div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Paulo Barroso</p>
+    <p id="last-modified">Last Modification: </p>
+  </footer>
+</body>
+</html>
