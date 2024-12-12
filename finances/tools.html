@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools - Personal Finance Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="tools.html">Tools</a></li>
+            </ul>
+        </nav>
+        <h1>Financial Tools</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Budget Calculator</h2>
+            <form id="budget-form">
+                <label for="income">Monthly Income ($):</label>
+                <input type="number" id="income" required>
+                <label for="expenses">Monthly Expenses ($):</label>
+                <input type="number" id="expenses" required>
+                <label for="savings-goal">Savings Goal ($):</label>
+                <input type="number" id="savings-goal" required>
+                <button type="button" id="calculate">Calculate</button>
+            </form>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Personal Finance Management. <a href="attributions.html">Attributions</a></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
